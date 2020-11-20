@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="home_style.css">
+
+<html lang="en">
+    <head>
+        <title>
+            Chris Lin
+        </title>
+
+    </head>
+    <body>
+
+    <div class="header">
+      <img class="profile" alt="Smiley face" align="middle" src="profil.jpg">
+      <h1>Welcome</h1>
+      <p>Get to know Chris Lin '20</p>
+    </div>
+
+    <div class="navbar">
+      <a href=home.html>About</a>
+      <a href=projects.html>Projects</a>
+      <a href= hobby.html>Hobby</a>
+      <a href="fun_fact.html" class="right" >Fun Facts</a>
+    </div>
+
+  <div class="slideshow_container">
+
+      <button onclick="plusDivs(-1)">&#10094;</button>
+      <button onclick="plusDivs(+1)">&#10095;</button>
+
+    <div>
+      <img class="mySlides" src="Reno.jpg">
+      <img class="mySlides" src="McQ.png">
+      <img class="mySlides" src="harvardcampus.jpg">
+      <img class="mySlides" src="smile.jpg">
+
+    <script>
+          var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      if (n > x.length) {slideIndex = 1}
+      if (n < 1) {slideIndex = x.length} ;
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      x[slideIndex-1].style.display = "block";
+    }
+    </script>
+    </div>
+
+
+    <section class="main">
+      <h2 class="main-heading">Nice to Meet You</h2>
+      <p class="main-subtitles"><i>Who is Chris Lin?</i></p>
+      <p class="main-text">Christian Lin, a senior in Adams House was born in New York City and raised in the proud city of Reno Nevada, also known as the "World's Biggest Littlest City." At Robert McQueen High School, Chris takes pride in playing bass for his high school orchestra, regional youth philharmonic orchestra (Reno Philharmonic Youth Orchestra), as well as the Nevada All State Orchestra, reaching the peak of his musical career when performing at Carnegie Hall. As a college freshmen, Chris had the privilege of living in a 5-man suite with four other roommates in Greys East. His luck continued to rise as he won the housing lottery and now lives with many, many small creatu--roommates-- in the historical, ideally-situated, classy Adams House. All words that very well describe Chris. In short, Chris is one lucky man.  </p>
+    </section>
+
+
+
+    </body>
+</html>

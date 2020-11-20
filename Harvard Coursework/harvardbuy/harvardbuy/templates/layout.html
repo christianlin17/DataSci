@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+    <head>
+        
+        <link rel="stylesheet" href="/static/styles.css">
+        <title>HarvardBuy | Harvard's easiest way to buy and sell things</title>
+
+    </head>
+    <body style="margin-top: 0px; margin-left: 0px; margin-right: 0px;">
+        
+        
+        
+    <div id="nav-container">
+      
+      <!-- Website logo -->
+      <div class="website-logo">
+        <a href="/homepage">
+        <img id="logo" src="/static/logo5.png">    
+        </a>
+      </div>
+      
+      <!-- Beginning of navbar menu -->
+      <div class="navbar">
+          <a href="/homepage">Home</a>
+          
+          <!-- Beginning of dropdown menu -->
+          <div id="dropdown1" class="dropdown1">
+            <button class="dropbtn1">Categories
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div id="dropdown-content1" class="dropdown-content1">
+              <div class="row">
+                <div class="column">
+                  <h4>Furniture</h4>
+                  <a href="/fridges">Fridges</a>
+                  <a href="/futons">Futons</a>
+                  <a href="/chairs">Chairs</a>
+                   <a href="/lamps">Lamps</a>
+                  <a href="/tables">Tables</a>
+                  <a href="/mirrors">Mirrors</a>
+                  <a href="/rugs">Rugs</a>
+                  <a href="/other-furniture">Other</a>
+                </div>
+                <div class="column">
+                   <h4>Clothes</h4>
+                  <a href="/men">Men's</a>
+                  <a href="/women">Women's</a>
+                  <a href="other-clothes">Other clothing</a>
+                </div>
+                <div class="column">
+                  <h4>Other</h4>
+                  <a href="/books">Books</a>
+                  <a href="/fans">Fans</a>
+                  <a href="/electronics">Electronics</a>
+                  <a href="/other-misc">Other</a>
+                </div>
+              </div>
+            </div>
+          </div>  <!-- END of dropdown menu -->
+          
+          <a href="/how">How it works</a>
+          
+          {% if session.user_id %}
+          <div class="session-ongoing-buttons">
+            <a value="Sell Now" href="/sell" id="sellnow-button">Sell Now</a>
+            <a href="/logout">Logout</a>
+          </div>
+          {% else %}
+          
+        <div class="regbuttons">
+            <a href="/login">Log in</a>
+            <a href="/register">Register</a>
+            <a value="Sell Now" href="/sell" id="sellnow-button">Sell Now</a>
+        {% endif %}
+        </div>
+        
+        
+    </div> <!-- END of navbar menu -->
+  
+  </div> <!-- End of nav-container -->
+    
+  <div id="container-da">
+    <img id="page-display1" src="static/render.png">
+  </div>
+    
+    
+    
+    <br>
+        
+    {% block main %}{% endblock %}
+    
+    <br>
+    <!--<footer>
+        <div class="footer">
+        
+        ### ADD STUFF HERE ###
+        © 2019 HarvardBuy 
+        
+           
+        </div>
+    </footer>-->
+
+    </body>
+</html>

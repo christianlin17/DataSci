@@ -1,0 +1,31 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    Register
+{% endblock %}
+
+{% block main %}
+
+<div id="register-page-main">
+    <p class="h2-secondary-title">Sell your stuff quickly. <b>Join HarvardBuy</b></p>
+    <br>
+    <form action="/register" method="post">
+        <div class="form-group">
+ 
+            <input autocomplete="off" required autofocus class="form-control" name="name" placeholder="John Smith" type="text">
+        </div>
+        <div class="form-group">
+            <input autocomplete="off" required autofocus class="form-control" name="email" placeholder="john_smith" type="text">@college.harvard.edu
+        </div>
+        <div class="form-group">
+            <input class="form-control" required name="password" placeholder="Password" type="password">
+        </div>
+        <div class="form-group">
+            <input class="form-control" required name="confirmation" placeholder="Password (again)" type="password">
+        </div>
+        <button class="loginbutton" type="submit">Register</button>
+    </form>
+    
+    
+</div>
+{% endblock %}

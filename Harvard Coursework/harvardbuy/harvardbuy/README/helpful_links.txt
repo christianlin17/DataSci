@@ -1,0 +1,25 @@
+Helpful Links:
+
+Website Templates
+    https://new.abb.com/
+
+Navigation Drop Down
+    https://www.w3schools.com/howto/howto_js_responsive_navbar_dropdown.asp
+
+Mega Drop Down Menu
+    https://designmodo.com/create-css3-mega-menu/
+    https://www.w3schools.com/howto/howto_css_mega_menu.asp
+
+
+Automatic Slide Show
+    https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_slideshow_auto
+
+Product Image Showcase
+    https://phppot.com/php/amazon-like-product-images-showcase-for-shopping-cart/
+    
+    
+    
+    
+Keeping the footer at the bottom:
+https://medium.com/@zerox/keep-that-damn-footer-at-the-bottom-c7a921cb9551
+

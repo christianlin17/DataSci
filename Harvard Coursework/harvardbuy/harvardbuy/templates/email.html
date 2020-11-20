@@ -1,0 +1,13 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HarvardBuy | Sell Your Item
+{% endblock %}
+
+{% block main %}
+    <form action="/email" method="post">
+        <input name="email" type="text">
+    <button type=submit>Send Email</button>
+    </form>
+
+{% endblock %}

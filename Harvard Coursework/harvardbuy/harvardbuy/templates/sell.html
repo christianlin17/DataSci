@@ -1,0 +1,125 @@
+{% extends "layout.html" %}
+
+{% block title %}
+    HarvardBuy | Sell Your Item
+{% endblock %}
+
+{% block main %}
+
+
+    <div id="sellform">
+        <h2 class="title-sell">Find buyers quickly. Sell on HarvardBuy.</h2>
+        <p class="title-sell">We made it simple to sell your items. It takes less than 1 minute per item!</p>
+
+        <form enctype="multipart/form-data" action="/sell" method="post">
+
+        <div class="selling-form-box">
+        <div class="selling-form">
+
+        <div class="sell-form-element">
+            1. Product name
+            <input autocomplete="off" required autofocus name="product-name" placeholder="Black Leather Futon" type="text">
+            <br>
+        </div>
+
+        <div class="sell-form-element">
+            2. Where is the item located?
+            <select required name="selling-locations">
+                <optgroup label="Houses"></optgroup>
+                <option value="Adams">Adams</option>
+                <option value="Cabot">Cabot</option>
+                <option value="Currier">Currier</option>
+                <option value="Dunster">Dunster</option>
+                <option value="Eliot">Eliot</option>
+                <option value="Kirkland">Kirkland</option>
+                <option value="Adams">Adams</option>
+                <option value="Leverett">Leverett</option>
+                <option value="Lowell">Lowell</option>
+                <option value="Mather">Mather</option>
+                <option value="Pforzheimer">Pforzheimer</option>
+                <option value="Quincy">Quincy</option>
+                <option value="Winthrop">Winthrop</option>
+                <optgroup label="Freshmen Dorms"></optgroup>
+                <option value="Apley">Apley</option>
+                <option value="Canaday">Canaday</option>
+                <option value="Grays">Grays</option>
+                <option value="Greenough">Greenough</option>
+                <option value="Hollis">Hollis</option>
+                <option value="Holworthy">Holworthy</option>
+                <option value="Hurlbut">Hurlbut</option>
+                <option value="Lionel">Lionel</option>
+                <option value="Mass Hall">Mass Hall</option>
+                <option value="Matthews">Matthews</option>
+                <option value="Mower">Mower</option>
+                <option value="Pennypacker">Pennypacker</option>
+                <option value="Stoughton">Stoughton</option>
+                <option value="Straus">Straus</option>
+                <option value="Thayer">Thayer</option>
+                <option value="Weld">Weld</option>
+                <option value="Wigglesworth">Wigglesworth</option>
+            </select>
+             <label><input type="checkbox" name="delivery-free">I'll deliver for free<br></label>
+
+        </div>
+
+
+        <div required class="category-box">
+            3. Category
+            <select name="category">
+                <optgroup selected label="Furniture"></optgroup>
+                <option value="fridges">Fridges</option>
+                <option value="futons">Futons</option>
+                <option value="chairs">Chairs</option>
+                <option value="lamps">Lamps</option>
+                <option value="tables">Tables</option>
+                <option value="mirrors">Mirrors</option>
+                <option value="rugs">Rugs</option>
+                <option value="furniture-other">Other furniture</option>
+
+                <optgroup label="Clothes"></optgroup>
+                <option value="mens">Men's</option>
+                <option value="womens">Women's</option>
+                <option value="clothes-other">Other clothing</option>
+
+                <optgroup label="Books and Electronics"></optgroup>
+                <option value="books">Books</option>
+                <option value="fans">Fans</option>
+                <option value="electronics">Electronics</option>
+                <option value="misc-other">Other</option>
+
+            </select>
+        </div>
+
+        <br>
+        <div required class="sell-form-element">
+            4. Item description
+            <input type="text" required id="item-desc" name="item-description" placeholder="Used black leather futon – light wear. Very comfortable and comes with 2 cup holders.">
+
+            </textarea>
+        </div>
+
+        <div class="sell-form-element">
+            5. Price
+
+            $ <input type="number"  name="price" value="" placeholder="20">
+            <label><input type="checkbox" name="price-negotiable">Negotiable</label><br><br>
+        </div>
+
+        <div class="sell-form-element">
+        <!--https://stackoverflow.com/questions/5628011/how-to-upload-a-file-to-my-server-using-html -->
+
+            6. Upload up to 2 pictures of your item<br><br>
+                <input required name="picture1" type="file" accept="image/*"><br><br>
+                <input required name="picture2" type="file" accept="image/*"><br>
+
+        </div>
+
+        <div class="sell-form-element">
+            <button class="loginbutton" type="submit">Looks good! Let's go!</button>
+        </div>
+        </div>
+        </div>
+    </form>
+    </div>
+
+{% endblock %}

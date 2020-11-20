@@ -1,0 +1,75 @@
+body {
+    font-family: arial;
+    height: 1400px; /* Used to enable scrolling */
+  background: -webkit-linear-gradient(350deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+  background: -moz-linear-gradient(350deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+  background: -o-linear-gradient(350deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+  background: linear-gradient(80deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 85%);
+}
+
+.header_fun {
+padding: 40px; /* some padding */
+text-align: center; /* center the text */
+color: white; /* white text color */
+font:garamond; /*font setting*/
+z-index:0;
+border-style:double;
+
+}
+
+/* Increase the font size of the <h1> element */
+.header h1 {
+font-size: 40px;
+}
+
+.profile {
+    display: block;
+    width: 200px;
+    height: 200px;
+    background: #E6E7ED;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+}
+
+/* Change color on hover */
+.navbar a:hover {
+  background-color: powderblue;
+  color: black;
+}
+
+
+.container{
+  padding-top: 100px;
+}
+
+#hobby-table{
+  text-align: center;
+  margin-left:auto;
+  margin-right:auto;
+  display: block;
+  border: 1px solid black;
+}
+
+th, td {
+  padding: 15px;
+  border: 1px solid black;
+  color: white;
+  border-color: green;
+  border-collapse: collapse;
+}

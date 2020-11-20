@@ -1,0 +1,563 @@
+#rectangle{
+    width:90%;
+    height:280px;
+    background: white;
+    margin-left: 5%;
+    margin-right: auto;
+}
+
+hr {
+    display: block;
+    width: 95%;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+    margin-top: 0px;
+
+}
+
+.box-announcement {
+    margin-left: 5%;
+    color: black/*#b00015*/;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration:none;
+}
+
+
+.primary-cat {
+    margin-left: 5%;
+    color: black/*#b00015*/;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration:none;
+}
+
+.primary-cat-none {
+    margin-left: 5%;
+    color: black/*#b00015*/;
+    font-family: sans-serif;
+    font-size: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-decoration:none;
+    display: inline-block;
+}
+
+.primary-cat:hover {
+    text-decoration:underline;
+}
+
+.primary-cat:visited {
+    text-decoration:none;
+    color: #0457c8;
+}
+
+.footer {
+    background-color: #dbdbdb;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 0;
+    width:100%;
+}
+
+
+.block {
+    width: 100px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+#sellnow-button {
+    
+    text-decoration:none;
+    text-align:center;
+    transition: all 0.15s;
+    color: white;
+    background-color: #00998f;
+    
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#sellnow-button:hover{
+    color:white;
+    border-color:#00baae;
+    background-color: #00baae;
+    
+}
+
+#sellnow-button:active{
+    color:#ffffff;
+    border-color:#12db29;
+    background-color: #089c19;
+    margin-bottom: 5px;
+}
+
+#sellnow-button:visited {
+  
+}
+
+#loginform {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.form-control {
+  width: 150px;
+  height: 30px;
+  margin-bottom: 10px;
+  font-family: sans-serif;
+}
+
+/* LOGIN BUTTON STYLE */
+.loginbutton {
+	box-shadow:inset 0px 39px 0px -24px #FEBD69;
+	background-color:#FEBD69;
+	border-radius:4px;
+	border:1px solid #FEBD69;
+	display:inline-block;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-size:15px;
+	padding:6px 15px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #FEBD69;
+	margin-top: 10px;
+}
+.loginbutton:hover {
+	background-color:#FEBD69;
+}
+.loginbutton:active {
+	position:relative;
+	top:1px;
+}
+
+
+/* Registration page */
+#register-page-main {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#loggedin-message {
+  color: white;
+}
+
+
+/* product boxes */
+.product-block {
+    width:200px;
+    height:280px;
+    background:white;
+    margin-right: auto;
+    z-index: 2;
+    color:white;
+    display:inline-block;
+    margin-right: 2%;
+}
+
+.product-image-box {
+    max-width:180px;
+    max-height: auto;
+    padding-left: 5%;
+    padding-right: auto;
+    background: white;
+    margin-bottom: 0px;
+    padding-top: 10px;
+}
+
+.product-image {
+  height: 100px;
+  margin: 0 auto;
+}
+
+.title-box {
+  padding-left: 8%;
+}
+
+.title-text {
+  font-family: helvetica;
+  margin-bottom: 5px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #0457c8
+}
+
+.title-text:hover {
+  text-decoration: underline;
+  color: #001e73;
+}
+
+.location-box {
+  padding-left: 8%;
+  margin-bottom: 5px;
+  display: inline-block;
+}
+
+.location-text {
+  color: black;
+  font-size: 12px;
+  font-family: sans-serif;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  display: inline-block;
+}
+
+.price-box {
+  margin:none;
+  padding-bottom: 10px;
+  
+}
+
+.price-text {
+  color: black;
+  font-size: 20px;
+  font-family: sans-serif;
+  padding-right: 8%;
+  float:right;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+.expiration-text {
+  color: white;
+  font-family: sans-serif;
+  font-size: 10px;
+    background-color: orange;
+  text-align: center;
+  width: 50%;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.buy-button {
+  width: 100%;
+  height: 10%;
+  background-color: #ffe000;
+  font-weight: bold;
+}
+
+.buy-button:hover {
+  background-color: #fff200;
+}
+
+.selling-form-box {
+  text-align: center;
+}
+
+.sell-form-element {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+}
+
+#item-desc {
+  width: 200px;
+  word-wrap: break-word;
+  word-break: break-all;
+  height: 20px;
+}
+
+.title-sell {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+#sellform {
+  font-family: sans-serif;
+}
+
+.sold-title {
+  text-align: center;
+}
+
+
+#how-to-box {
+  width: 60%;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.howto-title {
+  font-size: 25px;
+  color: #ffffff;
+  background-color: #363f4d;
+  padding: 20px;
+}
+
+.h2-secondary-title {
+  color: #ffffff;
+  background-color: #4c5c75;
+  padding: 15px;
+  width: 60%;
+  margin: auto;
+  font-family: sans-serif;
+}
+
+.small-announcement {
+  font-family: sans-serif;
+  color: #0046be;
+  font-weight: bold;
+  text-decoration:none;
+  font-size: 13px;
+  margin-left: 5%;
+  margin-top: 0px;
+  margin-bottom: 10px;
+  display:inline-block
+}
+
+.small-announcement:hover {
+  text-decoration:underline;
+}
+
+.small-announcement:visited {
+  text-decoration:none;
+}
+
+.title_big {
+  font-family:sans-serif;
+  text-align: center;
+  padding-top:15px;
+}
+
+.alert {
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.returnlink {
+  text-align: center;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+
+.returnlink:hover {
+  text-decoration: underline;
+}
+
+/* ##################################################################### */
+/* Navbar style section below*/
+/* ##################################################################### */
+
+#nav-container {
+  width: 100%;
+  background-color: #37475A;
+  display: block;
+  padding-bottom: 7%;
+}
+
+/* Logo size */
+#logo {
+    max-width:15%;
+    height:auto;
+    padding-top: 0.25%;
+    display: inline-block;
+    float:left;
+    padding-left: 2%;
+}
+
+/* Navbar container */
+.navbar {
+  overflow: hidden;
+  background-color: #37475A;
+  font-family: Arial;
+  float: right;
+  width: 75%;
+  display: inline-block;
+  margin-top: 2%;
+  padding-right: 4%;
+  transition: all 0.4s;
+}
+
+/* Links inside the navbar */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding: 14px 35px;
+  text-decoration: none;
+  transition: all 0.15s;
+}
+
+/* The dropdown container */
+.dropdown1 {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown1 .dropbtn1 {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  transition: all 0.15s;
+  font: inherit; /* Important for vertical align on mobile phones */
+  margin: 0; /* Important for vertical align on mobile phones */
+}
+
+/* Add a red background color to navbar links on hover */
+.navbar a:hover, .dropdown1:hover .dropbtn1 {
+  background-color: #FEBD69;
+  color: black;
+  transition: all 0.4s;
+  text-decoration: none;
+}
+
+/* Dropdown content (hidden by default) */
+#dropdown-content1.dropdown-content1 {
+  display: none;
+  position: fixed;
+  background-color: #ffffff;
+  width: 300px;
+  height: 370px;
+  /* box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.2); */
+  z-index: 1; /* what is in front of what */
+  text-align: center;
+  transition: all 0.4s;
+  
+}
+
+/* Show the dropdown menu on hover */
+#dropdown1.dropdown1:hover .dropdown-content1 {
+  display: block;
+  transition: all 0.4s;
+}
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width:90px;
+  padding: 2px;
+  background-color: #ffffff;
+  height: 100%;
+}
+
+/* Style links inside the columns */
+.column a {
+  float: left;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+/* Add a background color on hover */
+.column a:hover {
+  background-color: #ddd;
+  transition: all 0.15s;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.regbuttons {
+    float: right
+}
+
+.regbuttons:hover {
+    text-decoration: none;
+}
+
+.session-ongoing-buttons {
+  float:right;
+}
+
+#page-display1 {
+  width: 80%;
+  height: auto;
+  padding-left: 10%;
+}
+
+#container-da {
+  width: 100%;
+  margin-bottom: 1%;
+  padding-top: 2%;
+}
+
+.modal {
+  display: none;
+  position: fixed; 
+  padding-top: 50px;
+  left: 0; 
+  top: 0;
+  width: 100%;
+  height: 100%; 
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.modal-content {
+  position: relative; 
+  background-color: white;
+  padding: 20px; 
+  margin: auto; 
+  width: 75%;  
+  -webkit-animation-name: animatetop;
+  -webkit-animation-duration: 0.3s;
+  animation-name: animatetop;
+  animation-duration: 0.2s
+}
+.close-btn {
+  float: right; 
+  color: lightgray; 
+  font-size: 24px;  
+  font-weight: bold;
+}
+.close-btn:hover {
+  color: darkgray;
+}
+@-webkit-keyframes animatetop {
+  from {top:-300px; opacity:0} 
+  to {top:0; opacity:1}
+}
+@keyframes animatetop {
+  from {top:-300px; opacity:0}
+  to {top:0; opacity:1}
+}
+
+.modal-btn {
+  width: 100%;
+  height: 10%;
+  background-color: #ffe000;
+  color: black;
+}
+
+.modal-btn:hover {
+  background-color: #fff200;
+}
+
+.location-icon {
+  width:10px; 
+  display: inline-block;
+}
+
+
+.location-icon-a {
+  width:15px; 
+  display: inline-block;
+}
+
+.buttonsell {
+  color: white;
+}
